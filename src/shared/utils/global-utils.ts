@@ -9,7 +9,7 @@ import coulson from "@/assets/coulson.webp";
 import ecommerce from "@/assets/instaleapEc.png";
 import twilioLogo from "@/assets/Twilio_logo.png";
 import simetrikLogo from "@/assets/simetrik_logo.png";
-import toryLogo from "@/assets/TORY LOGO 1_edited.avif";
+import toryLogo from "@/assets/TORY LOGO 1_edited.png";
 
 const uuid = () => crypto.randomUUID();
 

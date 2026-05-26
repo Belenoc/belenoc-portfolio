@@ -68,6 +68,7 @@ const ExperienceCard = (props: ExperienceCardProps) => {
         alt={`${company_name}_bg`}
         width={4000}
         height={3000}
+        loading="eager"
       />
     </motion.div>
   );
