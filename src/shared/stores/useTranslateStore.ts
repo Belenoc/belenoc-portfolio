@@ -1,16 +1,22 @@
-import { create } from 'zustand'
+import { create } from "zustand";
+import { persist } from "zustand/middleware";
+
+type Lang = "en" | "es";
 
 interface ITranslateStore {
-	lang: string
-	setLang: (lang: string) => void
-	showTranslateToggle: boolean
-	setShowTranslateToggle: (showToggle: boolean) => void
+  lang: Lang;
+  setLang: (lang: Lang) => void;
 }
 
-export const useTranslateStore = create<ITranslateStore>(set => ({
-	lang: localStorage.getItem('lang') || 'en',
-	setLang: (lang: string) => set(() => ({ lang })),
-	showTranslateToggle: false,
-	setShowTranslateToggle: (showToggle: boolean) =>
-		set(() => ({ showTranslateToggle: showToggle })),
-}))
+export const useTranslateStore = create<ITranslateStore>()(
+  persist(
+    (set) => ({
+      lang: "en",
+      setLang: (lang: Lang) => set({ lang }),
+    }),
+    {
+      name: "lang",
+      partialize: (state) => ({ lang: state.lang }),
+    },
+  ),
+);
