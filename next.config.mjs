@@ -1,16 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: "export",
   images: {
-    domains: [
-      "instaleap.io",
-      "images.unsplash.com",
-      "www.tory-tech.com",
-      "apgconsulting.com.ar",
-      "plus.unsplash.com",
-      "tienda.makro.com.co"
-    ],
+    unoptimized: true,
   },
 };
 
 export default nextConfig;
- 

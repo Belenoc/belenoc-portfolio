@@ -12,12 +12,13 @@ export interface ISocialLink {
 
 export interface IExperienceCard {
   id: string;
-  company_logo: string;
+  company_logo: string | StaticImageData;
   company_name: string;
   position_name: string;
   dates: string;
   url_site: string;
   background_url: string;
+  responsibilities: string[];
 }
 
 export interface IDevToolsElement {

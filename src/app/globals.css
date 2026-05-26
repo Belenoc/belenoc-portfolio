@@ -1,4 +1,80 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-pdark: #0b0a10;
+  --color-plight: #f3f1ff;
+  --color-sblue: #3f3ae7;
+  --color-sgreen: #c8ef52;
+  --color-raisin-black: #1c1e23;
+  --color-noon: #efeef2;
+  --color-midnight: #343436;
+  --color-neon-blue: #4353ff;
+  --color-light-green: #7cea9c;
+  --color-french-rose: #f75590;
+  --color-space-cadet: #2e294e;
+  --color-dark-orange: #f58f29;
+  --color-front-white: #fbfbfd;
+  --color-lilla-uk: #7068fa;
+  --color-gray-cool: #2a3036;
+  --color-gray-chacra: #718096;
+  --color-sun-beam: #d69e2e;
+  --color-dusky-alt: rgba(11, 10, 16, 0.5);
+
+  --animate-infinite-scroll: infinite-scroll 25s linear infinite;
+}
+
+@keyframes infinite-scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-midnight) transparent;
+}
+
+.dark * {
+  scrollbar-color: var(--color-noon) transparent;
+}
+
+body {
+  background-image: radial-gradient(
+      ellipse 80% 50% at 50% -20%,
+      rgba(62, 58, 231, 0.08),
+      transparent
+    ),
+    radial-gradient(
+      ellipse 50% 30% at 80% 20%,
+      rgba(200, 239, 82, 0.06),
+      transparent
+    );
+}
+
+.dark body {
+  background-image: radial-gradient(
+      ellipse 80% 50% at 50% -20%,
+      rgba(62, 58, 231, 0.15),
+      transparent
+    ),
+    radial-gradient(
+      ellipse 50% 30% at 80% 20%,
+      rgba(200, 239, 82, 0.1),
+      transparent
+    );
+}
+
+::selection {
+  background-color: var(--color-sblue);
+  color: white;
+}
+
+.dark ::selection {
+  background-color: var(--color-sgreen);
+  color: var(--color-pdark);
+}

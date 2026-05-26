@@ -1,0 +1,62 @@
+{
+  "nav": {
+    "download": "Descargar",
+    "cv": "CV"
+  },
+  "hero": {
+    "name": "Jesús Beleño",
+    "title": "Ingeniero de Sistemas"
+  },
+  "about": {
+    "title": "Sobre mí",
+    "bio": "Ingeniero de sistemas apasionado por el desarrollo web de vanguardia y el soporte de software para startups. Competente en diversas tecnologías y frameworks, aprovechando una amplia experiencia y un historial comprobado de resolución innovadora de problemas.",
+    "years": "Años de experiencia",
+    "location": "De Mosquera, Cundinamarca, CO 🇨🇴"
+  },
+  "experience": {
+    "title": "Experiencia",
+    "subtitle": "Un poco sobre mi carrera profesional",
+    "twilio": {
+      "resp_0": "Mantuve un puntaje CSAT de 4.97/5 brindando guía técnica de alto nivel a clientes empresariales",
+      "resp_1": "Logré un 99.6% en Revisión de Calidad de Casos (CQR) con dominio en gobierno de datos e integraciones API",
+      "resp_2": "Optimicé flujos de soporte automatizando tareas repetitivas con herramientas de IA"
+    },
+    "simetrik": {
+      "resp_0": "Resolví incidentes técnicos críticos y complejos más allá de las capacidades de L2",
+      "resp_1": "Realicé análisis de causa raíz (RCA) para incidentes recurrentes y críticos",
+      "resp_2": "Colaboré con equipos de desarrollo para diagnosticar y resolver problemas de código"
+    },
+    "instaleap_senior": {
+      "resp_0": "Desarrollé soluciones de software internas multifuncionales a nivel empresa",
+      "resp_1": "Contribuí al primer sistema de IA para detección proactiva de incidentes, mejorando la eficiencia operativa en un 25%",
+      "resp_2": "Reduje el tiempo de inactividad del sistema en un 20% mediante colaboración con equipos multifuncionales"
+    },
+    "instaleap_junior": {
+      "resp_0": "Resolví un 35% más de incidentes en el primer contacto mejorando los procesos de diagnóstico y documentación",
+      "resp_1": "Desarrollé scripts automatizados en Node.js reduciendo el tiempo de resolución de problemas en un 20%",
+      "resp_2": "Capacité a nuevos miembros del equipo de soporte en mejores prácticas y resolución avanzada de problemas"
+    },
+    "tory": {
+      "resp_0": "Desarrollé informes personalizados con Crystal Reports y Excel para análisis detallado de datos",
+      "resp_1": "Contribuí al desarrollo de software con Angular para interfaces de usuario intuitivas",
+      "resp_2": "Gestioné proyectos de integración de sistemas reduciendo errores de integración en un 30%"
+    },
+    "apg": {
+      "resp_0": "Desarrollé soluciones e informes de BI para la toma de decisiones empresariales",
+      "resp_1": "Analicé datos para proporcionar información procesable entre departamentos"
+    }
+  },
+  "tech": {
+    "title": "Tecnologías",
+    "subtitle": "Tecnologías, herramientas y plataformas de IA que uso a diario"
+  },
+  "projects": {
+    "title": "Proyectos",
+    "subtitle": "Aquí hay algunos proyectos en los que he trabajado en los últimos años.",
+    "work": "Experiencia Laboral"
+  },
+  "footer": {
+    "copyright": "© 2026 Jesús Beleño.",
+    "powered": "Impulsado por Next.js 16"
+  }
+}

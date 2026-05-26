@@ -1,0 +1,62 @@
+{
+  "nav": {
+    "download": "Download",
+    "cv": "CV"
+  },
+  "hero": {
+    "name": "Jesús Beleño",
+    "title": "Systems Engineer"
+  },
+  "about": {
+    "title": "About",
+    "bio": "Passionate systems engineer excelling in cutting-edge web development and software support for startups. Proficient in diverse technologies and frameworks, leveraging extensive expertise and a proven track record of innovative problem-solving.",
+    "years": "Years of experience",
+    "location": "From Mosquera, Cundinamarca, CO 🇨🇴"
+  },
+  "experience": {
+    "title": "Experience",
+    "subtitle": "A little about my professional career",
+    "twilio": {
+      "resp_0": "Maintained a 4.97/5 CSAT score delivering high-touch technical guidance for enterprise clients",
+      "resp_1": "Achieved 99.6% Case Quality Review (CQR) with mastery in data governance and API integrations",
+      "resp_2": "Streamlined support workflows by automating repetitive tasks using AI tools"
+    },
+    "simetrik": {
+      "resp_0": "Resolved critical and complex technical incidents beyond L2 capabilities",
+      "resp_1": "Conducted root cause analysis (RCA) for recurring and critical incidents",
+      "resp_2": "Collaborated with development teams to diagnose and resolve code-related issues"
+    },
+    "instaleap_senior": {
+      "resp_0": "Developed cross-functional internal software solutions company-wide",
+      "resp_1": "Contributed to the first AI system for proactive incident detection, improving operational efficiency by 25%",
+      "resp_2": "Reduced system downtime by 20% through multifunctional team collaboration"
+    },
+    "instaleap_junior": {
+      "resp_0": "Resolved 35% more incidents on first contact by improving diagnostic and documentation processes",
+      "resp_1": "Developed automated scripts in Node.js reducing problem resolution time by 20%",
+      "resp_2": "Mentored new support team members on best practices and advanced troubleshooting"
+    },
+    "tory": {
+      "resp_0": "Developed custom reports using Crystal Reports and Excel for detailed data analysis",
+      "resp_1": "Contributed to software development using Angular for intuitive user interfaces",
+      "resp_2": "Managed system integration projects reducing integration errors by 30%"
+    },
+    "apg": {
+      "resp_0": "Developed BI solutions and reports for business decision-making",
+      "resp_1": "Analyzed data to provide actionable insights across departments"
+    }
+  },
+  "tech": {
+    "title": "Technologies",
+    "subtitle": "Technologies, tools, and AI platforms I use daily"
+  },
+  "projects": {
+    "title": "Projects",
+    "subtitle": "Here are some projects I've worked on in the past few years.",
+    "work": "Work Experience"
+  },
+  "footer": {
+    "copyright": "© 2026 Jesús Beleño.",
+    "powered": "Powered by Next.js 16"
+  }
+}
