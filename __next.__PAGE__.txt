@@ -1,0 +1,12 @@
+1:"$Sreact.fragment"
+2:I[3374,["/_next/static/chunks/16trggg3rigu5.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0nyf0vowsu57q.js","/_next/static/chunks/0nnjanr9n9kbs.js"],"default"]
+3:I[66853,["/_next/static/chunks/16trggg3rigu5.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0nyf0vowsu57q.js","/_next/static/chunks/0nnjanr9n9kbs.js"],"default"]
+4:I[55160,["/_next/static/chunks/16trggg3rigu5.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0nyf0vowsu57q.js","/_next/static/chunks/0nnjanr9n9kbs.js"],"default"]
+5:I[28388,["/_next/static/chunks/16trggg3rigu5.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0nyf0vowsu57q.js","/_next/static/chunks/0nnjanr9n9kbs.js"],"default"]
+6:I[39506,["/_next/static/chunks/16trggg3rigu5.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0nyf0vowsu57q.js","/_next/static/chunks/0nnjanr9n9kbs.js"],"default"]
+7:I[35686,["/_next/static/chunks/16trggg3rigu5.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0nyf0vowsu57q.js","/_next/static/chunks/0nnjanr9n9kbs.js"],"default"]
+8:I[58234,["/_next/static/chunks/16trggg3rigu5.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0nyf0vowsu57q.js","/_next/static/chunks/0nnjanr9n9kbs.js"],"default"]
+9:I[97367,["/_next/static/chunks/16trggg3rigu5.js","/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
+a:"$Sreact.suspense"
+0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"className":"w-full select-none text-midnight flex flex-col items-center subpixel-antialiased dark:text-noon scroll-smooth gap-5 lg:gap-10 mb-10","children":[["$","$L2",null,{}],["$","main",null,{"className":"w-full flex flex-col gap-10 items-center max-w-5xl px-5 xl:max-w-7xl mt-[9rem]","children":[["$","section",null,{"className":"w-full grid auto-rows-[192px] grid-cols-6 gap-4","children":[["$","$L3",null,{}],["$","$L4",null,{}]]}],["$","$L5",null,{}],["$","$L6",null,{}],["$","$L7",null,{}]]}],["$","$L8",null,{}]]}],[["$","script","script-0",{"src":"/_next/static/chunks/0nyf0vowsu57q.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/0nnjanr9n9kbs.js","async":true}]],["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"ALfv2k7HcpGeUslwHsPqa"}
+b:null
